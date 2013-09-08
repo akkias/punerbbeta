@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/base.css">
+	<link rel="stylesheet" type="text/css" href="./css/social.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<ul class="social">
+				<li class="tw"><a target="_blank" href="https://twitter.com/punerb"><i class="icon-twitter"></i></a></li>
+				<li class="fb"><a target="_blank" href="https://www.facebook.com/groups/punerb"><i class="icon-facebook"></i></a></li>
+				<li class="irc"><a target="_blank" href="irc://irc.freenode.net/punerb"><i class="icon-irc"></i></a></li>
+				<li class="google"><a target="_blank" href="https://groups.google.com/forum/#!forum/puneruby"><i class="icon-google"></i></a></li>
+				<li class="git"><a target="_blank" href="https://github.com/punerb"><i class="icon-github"></i></a></li>
+			</ul>
+			<h1 class="logo">Pune.rb</h1>
+		</div>
+	</header>
+	<div class="map">
+		<div class="overlay">
+			<h3 class="rsvp">
+				Next Meet on <br>14th September 2013 @ 11:00 AM <br>
+				<a class="btn btn-primary" href="http://www.meetup.com/PuneRailsMeetup/events/138316442/">RSVP</a>
+			</h3>
+		</div>
+		<div style="width:100%;overflow:hidden;height:100%;text-align:center;box-shadow: 0 0 3px #ccc;margin: 0 0 30px">
+			<iframe width="1920" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=+&amp;q=thoughtworks+pune&amp;ie=UTF8&amp;hq=thoughtworks&amp;hnear=Pune,+Maharashtra&amp;t=m&amp;cid=12742441231705345034&amp;ll=18.572386,73.959618&amp;spn=0.056953,0.32959&amp;z=13&amp;iwloc=A&amp;output=embed"></iframe>
+		</div>
+	</div>
+	<section class="prev-meetups">
+		<div class="headline">
+			<h3>Previous Meetups</h3>
+		</div>
+		<div class="container">
+
+
+			<div class="meetup-info-container">
+				<ul class="nav nav-tabs" id="meetup-info">
+					<li class="active"><a href="#july-meetup">THOUGHTWORKS ON 6TH JULY 2013</a></li>
+					<li><a href="#aug-meetup">THOUGHTWORKS ON 3RD AUGUST 2013</a></li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane active" id="july-meetup">
+						<p>Introduction to Ruby Pune User Group by Mohit Thatte [<a href="http://twitter.com/mohitthatte" target="_blank">@mohitthatte</a>]</p>
+						<p><a href="https://speakerdeck.com/anildigital/design-patterns-in-ruby" target="_blank"> Design Patterns in Ruby</a> by Anil Wadghule [<a href="http://twitter.com/anildigital" target="_blank">@anildigital</a>]</p>
+						<p><a href="http://www.slideshare.net/anupnivargi/conurrency" target="_blank">Ruby Concurrency & Threads</a> by Anup Nivargi [<a href="http://twitter.com/noopq" target="_blank">@noopq</a>]</p>
+						<p>Ruby Arduino by Nishant Modak [<a href="http://twitter.com/nishantmodak" target="_blank">@nishantmodak</a>]</p>
+						<p><a href="http://more.punetech.com/event-report-puneruby-meetup" target="_blank">Report</a> at Pune Tech</p>
+					</div>
+					<div class="tab-pane" id="aug-meetup">
+						<p><a href='http://dark-ruby.herokuapp.com'>Dark side of Ruby</a> by Gautam Rege & Khushnaseeb
+							[
+							<a href="http://twitter.com/gautamrege" target="_blank">@gautamrege</a>,
+							<a href="http://twitter.com/cloakedsoul" target="_blank">@cloakedsoul</a>
+							]
+						</p>
+						<p><a href="http://www.slideshare.net/mohitthatte/vagrant-puppetpunerug">Vagrant + Puppet</a> by Mohit Thatte [<a href="http://twitter.com/mohitthatte" target="_blank">@mohitthatte</a>]</p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+<footer>
+<div class="container">
+<div class="row">
+	<div class="span3">
+		<h3>Join Us</h3>
+	<p><a href="https://groups.google.com/forum/?hl=en#!forum/puneruby">Google Group</a></p>
+      <p><a href="http://www.meetup.com/PuneRailsMeetup">Meetup</a></p>
+	</div>
+    <div class="span3">
+      <h3>Contact Us</h3>
+      <p><a href="mailto:puneruby@googlegroups.com" target="_blank">PuneRuby</a> Mailing list</p>
+    </div>
+    <div class="span3">
+      <h3>IRC Logs</h3>
+      <p><a href="http://bit.ly/punerb-logs" target="_blank">#punerb</a> IRC Channel logs</p>
+    </div>
+    <div class="span3">
+      <h3>Getting Started</h3>
+      <p><a href="http://rubymonk.com" target="_blank">RubyMonk</a></p>
+      <p><a href="http://mislav.uniqpath.com/poignant-guide/" target="_blank">Why's (Poignant) Guide to Ruby</a></p>
+      <p><a href="http://rubylearning.com" target="_blank">Ruby Learning</a></p>
+    </div>
+</div>
+</div>
+</footer>
+
+	<script type="text/javascript" src="./js/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	
+	<script>
+	$('#meetup-info a').click(function (e) {
+		e.preventDefault();
+		$(this).tab('show');
+	})
+	</script>
+</body>
+</html>
