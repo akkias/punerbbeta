@@ -10366,3 +10366,5 @@ typedef std::string string;
 }  // namespace snappy
 
 #endif  // UTIL_SNAPPY_OPENSOURCE_SNAPPY_STUBS_PUBLIC_H_
+
+//
